@@ -8,7 +8,7 @@ body {
 }
 
 .main-content{
-  background-color: darkgray;
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 0.01%, #706C6C 0.02%, rgba(112, 108, 108, 0.03) 100%);
   border-top:2vh solid black;
   border-radius:1vh
 }
@@ -32,9 +32,15 @@ body {
 }
 
 .img{
-  padding-left:5vh;
-  border-right: 2vh solid lightgray;
-  border-radius:10px;
+  display:flex;
+  margin-left:5vh;
+  margin-top:10vh;
+  width:30vh;
+  height:30vh;
+  border-top:1vh solid lightgray;
+  border-right:1vh solid lightgray;
+  border-radius:2vh;
+  
 }
 
 .footer{
