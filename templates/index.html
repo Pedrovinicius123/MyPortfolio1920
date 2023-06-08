@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+{% block content %}
+  <div class="content">
+    <main class="main-content">
+      <center>
+        <header>
+          <h1>Welcome to my portfolio!</h1>
+        </header>
+        <header>
+          <h3>Here's everything I learned since 3 years of programming!</h3>
+        </header>
+      </center>
+    </main>
+    <div class="sections">
+      <section class="technologies">
+        <header>
+          <h4>Technologies</h4>          
+        </header>
+        <div class="list">
+          <ul>
+            <li>
+              <p> Python advanced (Try, Except, OOP)</p>         
+            </li>
+            <li>
+              <p> Flask, Jinja and SQLAlchemy </p>
+            </li>
+            <li>
+              <p> HTML and CSS</p>
+            </li>
+            <li>
+              <p>Flask-wtf and WTForms</p>
+            </li>
+            <li>
+              <p> Figma </p>
+            </li>
+          </ul>
+        </div>        
+      </section>
+      <section class="section1">
+        <header>
+          <h4>About me</h4>
+        </header>
+        <article>
+          <p>Hello! My name is Pedro Vinícius, from Brazil and I'm 15 years old. Since 12-13 years old I'm studying python, Html and Css. I'm making projects such as HungerLabor and <a href="https://mywebsiteflask31.pedrovinicius44.repl.co/" class="link">MyWebsiteFlask</a> using flask, sqlalchemy and wtforms technologies</p>
+          <p>I'm looking for an backend programmer iternship opportunity, as I'm 15 and I'm not able to get a real job.</p>
+          </article>
+          <p>So there's my <a href="https://github.com/PedroVinicius123">github</a>...</p>
+          <p>And <a href="https://mywebsiteflask31.pedrovinicius44.repl.co/">MyWebsiteFlask backend project</a></p>
+        </article>
+      </section>
+      <section>
+        <img class="img" src="{{url_for('static', filename='Me.png')}}" alt="My photo!">
+      </section>
+    </div>
+    <footer class="footer">
+      <p>Thanks for my mother, who never gave up, my precious dad and Jesus, Lord of everything!</p>
+    </footer>
+  </div>
+  
+{% endblock %}
