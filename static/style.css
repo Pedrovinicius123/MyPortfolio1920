@@ -33,6 +33,8 @@ body {
 
 .img{
   padding-left:5vh;
+  border-right: 2vh solid lightgray;
+  border-radius:10px;
 }
 
 .footer{
